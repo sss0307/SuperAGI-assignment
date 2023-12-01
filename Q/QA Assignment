@@ -1,0 +1,21 @@
+Q/A Assignment 
+
+1. With identical features, in comes multicollinearity which reduces the interpretability of a model. Also, can make the model less robust. 
+
+2. a) Inconclusive (We have too little data to conclude that A is better or worse than any other template with 95% confidence.)
+      But, we can perform a power analysis to determine the number of emails to be sent for a definitve answer.
+
+3. The comp. cost is commonly propotional to the number of non-0 entries in pytorch.
+   In this case, O(k). Ideally, O(k*m)
+
+4. Ranking the approaches : a>c>b
+   Assuming, V1 model is a fairly good model and classifies well enough, 
+   The 'a' method is really effective cause it will drive V2 to higher f1 scores. (less uncertainity)  
+   The 'c' method is also effective but, based on number of wrongly classified examples in the 10k, the training may also result in reinforcing the existing decision boundary. 
+   
+   Ideally, Combining methods 'c' and 'a' is much better.
+
+5. a) MLE: k/n
+   b) BE : (k+1)/(n+2)
+   c) MAP: k/n
+
